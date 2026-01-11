@@ -205,3 +205,81 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# Python / Jupyter
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+*.env
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# -----------------------------
+# Data (keep repo light)
+# -----------------------------
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.parquet
+data/*.json
+
+# If you want to keep a placeholder file:
+!data/.gitkeep
+
+# -----------------------------
+# Power BI / Microsoft
+# -----------------------------
+# (Optional) If you DON'T want to version Power BI files, uncomment:
+# *.pbix
+# *.pbit
+
+# Power BI cache / temp
+**/*.pbix.lock
+**/*.tmp
+**/*~*
+
+# Excel temp files
+~$*.xlsx
+
+# -----------------------------
+# Exports / outputs
+# -----------------------------
+outputs/
+export/
+reports/
+figures/
+plots/
+
+
+!data/sales_clean1.xlsx
